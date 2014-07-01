@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: TitleAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8f1df1a1cac062a4cba0029c10f0f8cc, type: 2}
+  sprites:
+  - name: Chibi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1280
+      width: 803
+      height: 768
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1280
+      width: 803
+      height: 768
+    rotated: 0
+    paddingLeft: .0211706106
+    paddingRight: .0983810723
+    paddingTop: .05078125
+    paddingBottom: 0
+  - name: Yin Ying
+    outer:
+      serializedVersion: 2
+      x: 804
+      y: 1546
+      width: 640
+      height: 502
+    inner:
+      serializedVersion: 2
+      x: 804
+      y: 1546
+      width: 640
+      height: 502
+    rotated: 0
+    paddingLeft: .151562497
+    paddingRight: .134375006
+    paddingTop: .0418326706
+    paddingBottom: .117529884
+  - name: AndyEnd
+    outer:
+      serializedVersion: 2
+      x: 1445
+      y: 1655
+      width: 393
+      height: 393
+    inner:
+      serializedVersion: 2
+      x: 1445
+      y: 1655
+      width: 393
+      height: 393
+    rotated: 0
+    paddingLeft: .0407124683
+    paddingRight: .0254452918
+    paddingTop: .0432569981
+    paddingBottom: .0356234089
+  - name: Congratulations
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 985
+      width: 1065
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 985
+      width: 1065
+      height: 294
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dial_bad
+    outer:
+      serializedVersion: 2
+      x: 979
+      y: 1403
+      width: 142
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 979
+      y: 1403
+      width: 142
+      height: 142
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dial_good
+    outer:
+      serializedVersion: 2
+      x: 1122
+      y: 1409
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 1122
+      y: 1409
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: timer_arrow
+    outer:
+      serializedVersion: 2
+      x: 979
+      y: 1329
+      width: 65
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 979
+      y: 1329
+      width: 65
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: life_1
+    outer:
+      serializedVersion: 2
+      x: 804
+      y: 1333
+      width: 84
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 804
+      y: 1333
+      width: 84
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dial_default
+    outer:
+      serializedVersion: 2
+      x: 1259
+      y: 1409
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 1259
+      y: 1409
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: logo_small
+    outer:
+      serializedVersion: 2
+      x: 804
+      y: 1408
+      width: 174
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 804
+      y: 1408
+      width: 174
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: life_2
+    outer:
+      serializedVersion: 2
+      x: 889
+      y: 1333
+      width: 84
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 889
+      y: 1333
+      width: 84
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
